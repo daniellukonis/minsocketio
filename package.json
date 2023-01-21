@@ -1,0 +1,19 @@
+{
+  "name": "minsocketio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "io-server": "node io.server.js & ",
+    "io-client": "node io.client.mjs",
+    "start": "npm run io-server && npm run io-client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4"
+  }
+}
